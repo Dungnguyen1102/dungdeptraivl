@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery & Music</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        audio {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hình ảnh và nhạc</h1>
+    <div class="gallery">
+        <img src="Screenshot 2025-02-02 203710.png" alt="Hình 1">
+        <img src="Screenshot 2025-02-02 203800.png" alt="Hình 2">
+        <img src="Screenshot 2025-02-02 204148.png" alt="Hình 3">
+        <img src="Screenshot 2025-02-02 204302.png" alt="Hình 4">
+    </div>
+    <audio controls autoplay>
+        <source src="Official Short Audio-DÙ CHO TẬN THẾ-ERIK  dù cho tận thế vẫn yêu em luôn yêu em...  Bộ Tứ Báo Thủ - CK ENTERTAINMENT.mp3" type="audio/mpeg">
+        Trình duyệt của bạn không hỗ trợ phát nhạc.
+    </audio>
+</body>
+</html>
